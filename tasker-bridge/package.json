@@ -1,0 +1,16 @@
+{
+  "name": "tasker-bridge",
+  "version": "1.0.0",
+  "description": "LAN-only Tasker bridge server",
+  "main": "server.js",
+  "type": "commonjs",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "express": "^4.21.2",
+    "multer": "^2.0.2"
+  }
+}

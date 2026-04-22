@@ -1,0 +1,31 @@
+.env
+.env.*
+
+node_modules/
+
+# Runtime/session data
+auth/
+slips/
+autodata.json
+tasker-bridge/data/
+tasker-bridge/logs/
+used_references*.json
+used_slips.json
+result.txt
+*.backup.*.json
+*.tmp
+tmp_*
+.tmp_*
+
+# Generated artifacts and local archives
+*.tgz
+after_*.png
+after_*.html
+
+# Local Windows deployment binaries
+plink.exe
+pscp.exe
+
+# Nested/local repository metadata
+**/.git/
+bot-onexox/
